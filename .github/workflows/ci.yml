@@ -11,7 +11,7 @@ jobs:
       image: adeomes/grades-test:v1
     steps:
       - name: Check out code
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       - name: Run tests
         run: pytest -v
